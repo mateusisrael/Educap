@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0;}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex; flex-direction: column; align-items: center;
+}
+
+.imgcon{
+    width: auto;
+}
+
+#img2-borda{
+    position: absolute;
+    padding: 43px;
+    width: 52%; 
+
+    /* top: 43px;*/
+
+}
+
+#img1_main{
+    width: 43%;
+    padding: 85px;
+
+    /* margin-top: 85px;
+    margin-bottom: 50px; */
+}
+
+
+#div-texto1{
+    width: 41%;
+    text-align: center;
+}
+
+
+#texto1{
+    font-family: Meta-Normal;
+    font-Size: 21px; /* 21px */
+    color: rgb(150, 150, 150);
+    font-style: normal;
+    text-align: left;
+    Line-Height: 25.2px;
+    Letter-Spacing: 0em;
+
+}
+
+#img-leia{
+    width: 20px;
+    margin-top: 33px;
+}
+
+#p-leiamais{
+    font-family: ;
+    font-size: 17px;
+    color: rgb(150, 150, 150);
+}
