@@ -65,8 +65,9 @@ main{
 .sobre-mn{
     width: 120px;
     height: 4.3em;
-    background-color: gray;
     margin-left: 1%;
-    border: 30px;
+    border-style: solid;
+    border-color: rgb(249, 226, 158) rgb(249, 224, 148) rgb(250, 219, 122) rgb(251, 210, 80) rgb(253, 199, 22) rgb(253, 197, 13) rgb(244, 168, 28);
     display: flex; text-align: center; align-items: center; justify-content: center;
+    color: rgb(153, 153, 153);
 }
