@@ -6,22 +6,20 @@ main{
     display: flex; flex-direction: column; align-items: center;
 }
 
-.imgcon{
-    width: auto;
-}
 
-#img2-borda{
-    position: absolute;
-    padding: 43px;
-    width: 52%; 
-
-    /* top: 43px;*/
-
+#conti{
+    background:url("./Educap - Assets/Assets-04.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    width: 100%;
+    height: 90vh;
+    display: flex; align-items: center; justify-content: center;
 }
 
 #img1_main{
     width: 43%;
-    padding: 85px;
+    /* padding: 85px; */
 
     /* margin-top: 85px;
     margin-bottom: 50px; */
