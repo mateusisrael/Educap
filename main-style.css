@@ -49,7 +49,7 @@ main{
 }
 
 #p-leiamais{
-    font-family: ;
+    /* font-family: ; */
     font-size: 17px;
     color: rgb(150, 150, 150);
 }
@@ -70,4 +70,43 @@ main{
     border-color: rgb(249, 226, 158) rgb(249, 224, 148) rgb(250, 219, 122) rgb(251, 210, 80) rgb(253, 199, 22) rgb(253, 197, 13) rgb(244, 168, 28);
     display: flex; text-align: center; align-items: center; justify-content: center;
     color: rgb(153, 153, 153);
+}
+
+
+
+
+
+
+
+
+
+#titulo-bb{
+    /* BIBLIOTECA COMUNITÁRIA */
+    width: 100%;
+    position: relative;
+    left: 20%;
+}
+
+#cont-biblioteca{
+    /* Imagem + Parágrafo */
+    width: 100%;
+    display: flex; flex-direction: row; justify-content: center;
+}
+
+.img-biblioteca{
+    /* Imagem */
+    width: 100%;
+}
+
+.cont-img-biblioteca{
+    /* Container da imagem */
+    width: 40%;
+}
+
+#div-p-biblioteca{
+    width: 20%;
+}
+
+#p-bb{
+    color: rgb(153, 153, 153)
 }
