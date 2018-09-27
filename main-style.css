@@ -225,5 +225,26 @@ h2{
 
 
 
-/*  Footer   */
+/*     Footer      */
 
+footer{
+    background-color:cornflowerblue;
+    width: 100%;
+    height: auto;
+
+    display: flex; justify-content: center; 
+}
+
+
+#img_footer{
+    width: 90%;
+    background-color: brown;
+    height: auto;
+
+    display: flex; flex-direction: row;
+}
+
+.sociais_logos{
+    width: 2%;
+    margin-left: 1%;
+}
