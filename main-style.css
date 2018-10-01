@@ -140,7 +140,7 @@ main{
 
 .main-secundaria{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex; align-items: center; flex-direction: row;
 
 }
@@ -189,7 +189,7 @@ form{
 
 #main_3{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex; flex-direction: row; justify-content: center;
 
 }
@@ -225,26 +225,44 @@ h2{
 
 
 
-/*     Footer      */
-
-footer{
-    background-color:cornflowerblue;
-    width: 100%;
-    height: auto;
-
-    display: flex; justify-content: center; 
-}
+/*     Responsivo      */
 
 
-#img_footer{
-    width: 90%;
-    background-color: brown;
-    height: auto;
+@media screen and (max-width: 768px) {
+    #img1_main{
+        width: 74%;
+    }
+    #conti{
+        background-size: 90%;
+    }
+    #div-texto1{
+        width: 67%;
+        margin-top: 10px;
+    }
 
-    display: flex; flex-direction: row;
-}
+    #titulo-bc-titulo{
+        margin-left: 9.5%;
 
-.sociais_logos{
-    width: 2%;
-    margin-left: 1%;
+    }
+
+    #div-p-biblioteca{
+        width: 22%;
+    }
+
+    .cont-img-biblioteca{
+        width: 59%;
+    }
+
+    #main_3{
+        /* Tirar essa margin-top dps */
+        margin-top: 300px; 
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .d_m3{
+        margin-left: 0;
+        width: 28%;
+
+    }
 }
