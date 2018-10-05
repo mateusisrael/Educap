@@ -229,6 +229,67 @@ h2{
 
 
 
+
+
+/*    FOOTER    */
+
+
+footer{
+    background-color: darkgrey;
+    width: 100%;
+    height: 200px;
+
+}
+
+.cont-principal-footer{
+    display: flex; flex-direction: row;
+}
+
+#cont-links{
+    width: 29%;
+    background: none;
+    display: flex; justify-content: space-between;
+}
+
+.links{
+    background-color: blueviolet;
+    width: 98%;
+    height: 150px;
+    display: flex; justify-content: space-between;
+}
+
+#sociais{
+    display: flex; flex-direction: row;
+    height: 20%;
+}
+
+#cont-img-social{
+    display: flex; flex-direction: row;
+    width: 150px;
+}
+
+.img-social{
+    display: flex; flex-direction: row;
+    width: 20%;
+}
+
+#foot-paragrafos{
+    display: flex; flex-direction: row;
+}
+
+#footer-imagens{
+    height: 100px;
+}
+
+.footer-imagem{
+    width: 100px;
+}
+
+
+
+
+
+
 /*     Responsivo      */
 
 
