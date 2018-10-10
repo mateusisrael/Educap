@@ -78,6 +78,17 @@ main{
     color: rgb(153, 153, 153);
 }
 
+.sobre-mn-maior{
+    width: 120px;
+    height: 4.3em;
+    margin-left: 1%;
+    border-style: solid;
+    border-color: rgb(249, 226, 158) rgb(249, 224, 148) rgb(250, 219, 122) rgb(251, 210, 80) rgb(253, 199, 22) rgb(253, 197, 13) rgb(244, 168, 28);
+    display: flex; text-align: center; align-items: center; justify-content: center;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
 
 
 
@@ -298,6 +309,7 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
+    color: rgb(137, 140, 139);
 }
 
 
@@ -474,6 +486,8 @@ footer{
         margin-left: 10px;
     }
 
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -522,6 +536,45 @@ footer{
         width: 46%;
     }
 
+
+
+    .cont-principal-footer{
+        width: 90%;
+        height: 80vh;
+    }
+
+    #sociais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 42%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    #cont-img-social{
+        width: 49%;
+    }
+
+    #foot-paragrafos{
+        text-align: center;
+        margin-left: 0px;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .footer-paragrafo{
+        font-size: 0.9em;
+    }
+
+    #footer-imagens{
+        margin-top: 0px;
+    
+    }
+    .footer-imagem{
+        width: 92px;
+    }
 }
 
 @media screen and (max-width: 375px) {
